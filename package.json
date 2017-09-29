@@ -1,0 +1,41 @@
+{
+  "name": "spine-manta",
+  "version": "1.0.0",
+  "description": "Manta adapter for Spine models running in NodeJS",
+  "main": "spine-manta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/iced --bare --map --runtime node -o ./ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextorigin/spine-manta.git"
+  },
+  "keywords": [
+    "spine",
+    "spinejs",
+    "spinemvc",
+    "manta",
+    "joyent",
+    "model",
+    "adapter",
+    "orm",
+    "object",
+    "object-store"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextorigin/spine-manta/issues"
+  },
+  "homepage": "https://github.com/nextorigin/spine-manta#readme",
+  "dependencies": {
+    "errify": "^1.0.0",
+    "iced-runtime": "^1.0.3",
+    "manta": "^5.1.0",
+    "spine": "^1.6.2"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.11"
+  }
+}
